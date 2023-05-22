@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+ul{
+  list-style: none;
+}
+img{
+  width: 100%;
+}
+a{
+  text-decoration: none;
+
+}
+.products__container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 1rem;
+ 
+}
+.products{
+  display: flex;
+  gap:1rem;
+ 
+}
+.filterSection{
+  min-width: 200px;
+}
+
+
+
+
+
